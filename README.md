@@ -45,36 +45,59 @@ Write the detailed procedure here
 **Program:**
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+
  module ex_4(sum,cout,a,b,cin);
+ 
  output sum;
+ 
  output cout;
+ 
  input a;
+ 
  input b;
+ 
  4/7
- https://github.com/Shamrin-B/FULL_ADDER_SUBTRACTOR/blob/main/README.md
-11/27/24, 2:05 PM
- FULL_ADDER_SUBTRACTOR/README.md at main · Shamrin-B/FULL_ADDER_SUBTRACTOR
- input cin;
+ 
  wire s1,c1,c2;
+ 
  xor(s1,a,b);
+ 
  and(c1,a,b);
+ 
  xor(sum,s1,cin);
+ 
  and(c2,s1,cin);
+ 
  or(cout,c2,c1);
+ 
  endmodule
+ 
  input module exp_42(df,bo,a,b,bin);
+ 
  output df;
+ 
  output bo;
+ 
  input a
+ 
  input b;
+ 
  input bin;
+ 
  wire w1,w2,w3;
+ 
  assign w1=a^b;
+ 
  assign w2=(~a&b);
+ 
  assign w3=(~w1&bin);
+ 
  assign df=w1^bin;
+ 
  assign bo=w2|w3
+ 
 Developed by:Hemalatha A
+
 RegisterNumber:24900150
 */
 
