@@ -99,9 +99,10 @@ Write the detailed procedure here
 Developed by:Hemalatha A
 
 RegisterNumber:24900150
-*/
+
 
 **RTL Schematic**
+
 ![logic diagram 4(1)](https://github.com/user-attachments/assets/5de8d6ce-0767-4c78-ba09-4de10fd540e8)
 ![logic diagram 4(2)](https://github.com/user-attachments/assets/f8b57a66-0154-4689-9884-f6e06bf62e0c)
 
